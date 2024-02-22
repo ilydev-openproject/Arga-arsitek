@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="/img/favicon.webp" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Arga Architect - Make A Better Place</title>
     <!-- Bootstrap CSS -->
@@ -25,7 +26,7 @@
         <!-- ======= Navbar ======= -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="/img/komponen/logo-arga-architect.png" width="200px" alt="logo-arga-architect">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +42,7 @@
                                 Layanan
                             </a>
                             <ul class="dropdown-menu" id="dropdownmenu">
-                                <li><a class="dropdown-item" href="semua-layanan.html">Semua Layanan</a></li>
+                                <li><a class="dropdown-item" href="/layanan">Semua Layanan</a></li>
                                 <li><a class="dropdown-item" href="#">Interior Custom Furniture</a></li>
                                 <li><a class="dropdown-item" href="#">Jasa Konsultasi</a></li>
                                 <li><a class="dropdown-item" href="#">General Contractor</a></li>
@@ -56,7 +57,7 @@
                                 Portofolio
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="semua-portofolio.html">Semua Portofolio</a></li>
+                                <li><a class="dropdown-item" href="/portofolio">Semua Portofolio</a></li>
                                 <li><a class="dropdown-item" href="#">Interior Custom Furniture</a></li>
                                 <li><a class="dropdown-item" href="#">Jasa Konsultasi</a></li>
                                 <li><a class="dropdown-item" href="#">General Contractor</a></li>
@@ -67,13 +68,13 @@
                             </ul>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="tim-kami.html">Tim Kami</a>
+                            <a class="nav-link" href="/tim">Tim Kami</a>
                         </li>
                         <li class="nav-item mx-2">
-                            <a class="nav-link" href="tentang.html">Tentang Kami</a>
+                            <a class="nav-link" href="/tentang">Tentang Kami</a>
                         </li>
                     </ul>
-                    <a href="kontak-kami.html" class="contact-btn px-3"><i class="icon fa-brands fa-whatsapp"></i>Konsultasi</a>
+                    <a href="/kontak" class="contact-btn px-3"><i class="icon fa-brands fa-whatsapp"></i>Konsultasi</a>
                 </div>
             </div>
         </nav>

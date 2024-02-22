@@ -1,782 +1,827 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: #212121;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #212121;
 }
 
 /*--------------------------------------------------------------
 # HEADER
 --------------------------------------------------------------*/
 #header {
-    background-color: #101010;
-    color: #fff;
+  background-color: #101010;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
 # NAVIGATION HEADER & FOOTER
 --------------------------------------------------------------*/
-
 .navbar a {
-    color: #999;
-    font-weight: 600;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 40px;
-    align-items: center;
+  color: #999;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 40px;
+  align-items: center;
+}
 
-}
 .navbar-nav .nav-link.active {
-    color: #F8B606 !important;
+  color: #F8B606 !important;
 }
+
 .navbar a:hover {
-    color: #fff;
+  color: #fff;
 }
+
 .navbar a:active, .navbar a:focus {
-    color: #F8B606;
+  color: #F8B606;
 }
+
 .dropdown-menu {
-    background-color: #101010;
+  background-color: #101010;
 }
 
 .dropdown-item {
-    color: #999;
-    font-weight: 600;
+  color: #999;
+  font-weight: 600;
 }
 
-.dropdown-item:hover{
-    background-color: #101010;
-    color: #fff;
+.dropdown-item:hover {
+  background-color: #101010;
+  color: #fff;
 }
+
 .contact-btn {
-    color: #272727 !important;
-    font-size: 16px !important;
-    background-color: #F8B606;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600 !important;
+  color: #272727 !important;
+  font-size: 16px !important;
+  background-color: #F8B606;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600 !important;
 }
 
 .icon {
-    font-size: 20px;
-    margin-right: 5px;
+  font-size: 20px;
+  margin-right: 5px;
 }
-.navbar-toggler , .navbar-toggler:active , .navbar-toggler:hover , .navbar-toggler:focus {
-    border: none;
-}
-.toggle-icon {
-    border: none;
-    color: #F8B606;
-}
-#maps {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 1300px;
-    height: 450px;
-    border-radius: 16px;
 
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:hover, .navbar-toggler:focus {
+  border: none;
 }
+
+.toggle-icon {
+  border: none;
+  color: #F8B606;
+}
+
+#maps {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1300px;
+  height: 450px;
+  border-radius: 16px;
+}
+
 .footer {
-    background-color: #101010;
-    padding: 36px 0px 0px 0px;
-    overflow: hidden;
+  background-color: #101010;
+  padding: 36px 0px 0px 0px;
+  overflow: hidden;
 }
+
 #link-footer {
-    color: #999;
-    font-size: 14px;
-    font-family: 'Prompt', sans-serif;
+  color: #999;
+  font-size: 14px;
+  font-family: "Prompt", sans-serif;
 }
+
 #link-footer:hover {
-    color: #F8B606;
+  color: #F8B606;
 }
 
 #media-sosial {
-    background-color: #999;
-    color: #101010 ;
-    font-size: 16px;
-    padding: 3px;
-    border-radius: 4px;
+  background-color: #999;
+  color: #101010;
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 4px;
 }
+
 #media-sosial:hover {
-    background-color: #F8B606;
-
+  background-color: #F8B606;
 }
-
 
 #copyright {
-    color: #999;
-    font-family: 'Prompt', sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-#nav-end {
-    color: #999;
-    font-family: 'Prompt', sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: normal;
-    text-decoration-line: underline;
-    font-style: normal;
+  color: #999;
+  font-family: "Prompt", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
-#nav-end:hover{
-    color: #F8B606;
+#nav-end {
+  color: #999;
+  font-family: "Prompt", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: underline;
+  font-style: normal;
+}
+
+#nav-end:hover {
+  color: #F8B606;
 }
 
 @media screen and (max-width: 600px) {
-    .footer {
-        padding: 10px;
-    }
-    .contact-btn {
-        font-size: 16px !important;
-        padding: 12px 20px !important;
-    }
-    #link-footer {
-        margin-left: -15px;
-    }
-    .break {
-        display: none;
-    }
-    #nav-end {
-        margin-left: -15px;
-    }
-    #maps {
-        width: 350px;
-        height: 250px;
-        border-radius: 8px;
-    }
+  .footer {
+    padding: 10px;
+  }
+  .contact-btn {
+    font-size: 16px !important;
+    padding: 12px 20px !important;
+  }
+  #link-footer {
+    margin-left: -15px;
+  }
+  .break {
+    display: none;
+  }
+  #nav-end {
+    margin-left: -15px;
+  }
+  #maps {
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+  }
 }
 /*--------------------------------------------------------------
 # HERO SECTION
 --------------------------------------------------------------*/
 .hero {
-    padding-top: 170px;
-    padding-bottom: 270px;
-    background: linear-gradient(78deg, #212121 13.72%, rgba(52, 69, 61, 0.50) 100.1%, rgba(33, 33, 33, 0.80) 100.11%);
+  padding-top: 170px;
+  padding-bottom: 270px;
+  background: linear-gradient(78deg, #212121 13.72%, rgba(52, 69, 61, 0.5) 100.1%, rgba(33, 33, 33, 0.8) 100.11%);
 }
+
 .hero-title {
-    font-size: 50px;
-    font-weight: 800;
-    color: #F8B606;
-    margin-right: 10px;
-    margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 800;
+  color: #F8B606;
+  margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 .hero-title-2 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
 }
 
-.hero-teks{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 400;
-    z-index: 2;
+.hero-teks {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  z-index: 2;
 }
+
 .hero-teks-2 {
-    font-size: 18px;
-    color: #fff;
-    font-weight: 400;
-    margin: 20px 250px;
-    z-index: 2;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  margin: 20px 250px;
+  z-index: 2;
 }
+
 .head-title {
-    color: #FFF;
-    font-size: 80px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+  color: #FFF;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
+
 .hero-button {
-    display: inline-flex;
-    padding: 12px 20px;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: #F8B606;
-    color: #101010;
-    font-size: 22px;
-    font-weight: 600;
-    text-decoration: none;
-    z-index: 2;
+  display: inline-flex;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #F8B606;
+  color: #101010;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  z-index: 2;
 }
-@media screen and (max-width: 600px){
-    .hero {
-        padding: 35px 20px;
-    }
-    .hero-title {
-        font-size: 24px;
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .hero-title-2 {
-        color: #FFF;
-        font-size: 24px;
-    }
-    .hero-teks {
-        font-size: 16px;
-    }
-    .hero-teks-2 {
-        margin: 15px;
-    }
-    .hero-button {
-        display: inline-flex;
-        padding: 10px 16px;
-        gap: 10px;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-    .head-title {
-       font-size: 32px;
-    }
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 35px 20px;
+  }
+  .hero-title {
+    font-size: 24px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .hero-title-2 {
+    color: #FFF;
+    font-size: 24px;
+  }
+  .hero-teks {
+    font-size: 16px;
+  }
+  .hero-teks-2 {
+    margin: 15px;
+  }
+  .hero-button {
+    display: inline-flex;
+    padding: 10px 16px;
+    gap: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .head-title {
+    font-size: 32px;
+  }
 }
 /*--------------------------------------------------------------
 # OUR TEAM SECTION
 --------------------------------------------------------------*/
 .section {
-    padding-top: 150px;
-    padding-bottom: 100px
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
+
 .cta-col {
-    background-color: #F8B606;
-    color: #101010;
-    border-radius: 6px;
-    padding: 24px;
-    min-height: 308px;
+  background-color: #F8B606;
+  color: #101010;
+  border-radius: 6px;
+  padding: 24px;
+  min-height: 308px;
 }
+
 .cta-col h3 {
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 25px;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 25px;
 }
+
 .cta-col h4 {
-    font-size: 24;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 24;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
+
 .more-btn {
-    background-color: #101010;
-    color: #F8B606;
-    font-size: 22px;
-    font-weight: 600;
-    padding: 14px 36px;
-    border: none;
-    border-radius: 8px;
-    text-decoration:  none;
+  background-color: #101010;
+  color: #F8B606;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
-    .section {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .cta-col {
-        background-color: #F8B606;
-        color: #101010;
-        border-radius: 6px;
-        padding: 10px;
-        min-height: 187px;
-    }
-    .cta-col h3 {
-      font-size: 27px;
-      margin-bottom: 20px;
-    }
-    .cta-col h4 {
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    .more-btn {
-        background-color: #101010;
-        color: #F8B606;
-        font-size: 16px;
-        font-weight: 600;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 8px;
-    }
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cta-col {
+    background-color: #F8B606;
+    color: #101010;
+    border-radius: 6px;
+    padding: 10px;
+    min-height: 187px;
+  }
+  .cta-col h3 {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+  .cta-col h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .more-btn {
+    background-color: #101010;
+    color: #F8B606;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+  }
 }
 /*--------------------------------------------------------------
 # CTA SECTION
 --------------------------------------------------------------*/
 .cta-container {
-    padding: 150px 73px;
+  padding: 150px 73px;
 }
+
 .cta-container h2 {
-    color: #fff;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
+
 .cta-button2 {
-    color: #212121;
-    font-family: "Plus Jakarta Sans";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    border: none;
-    padding: 16px 36px;
-    border-radius: 28px;
-    background: #F8B606;
-    text-decoration: none;
-    line-height: normal;
+  color: #212121;
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 28px;
+  background: #F8B606;
+  text-decoration: none;
+  line-height: normal;
 }
 
 @media screen and (max-width: 480px) {
-    .cta-container {
-        padding: 20px 43px 100px 43px;
-    }
-    .cta-container h2 {
-        color: #fff;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    .cta-button2 {
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
+  .cta-container {
+    padding: 20px 43px 100px 43px;
+  }
+  .cta-container h2 {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .cta-button2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 }
 /*--------------------------------------------------------------
 # COUNTER SECTION --------------------------------------------------------------*/
 #counter {
-    margin-top: -100px;
+  margin-top: -100px;
 }
+
 .counter {
-    border-radius: 24px;
-    background: #101010;
-    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.10);
-    padding: 50px;
+  border-radius: 24px;
+  background: #101010;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 50px;
 }
+
 .count-digit {
-    color: #F8B606;
-    line-height: normal;
-    font-style: normal;
-    font-size: 48px;
-    font-family: "Plus Jakarta Sans";
-    font-weight: 800;
+  color: #F8B606;
+  line-height: normal;
+  font-style: normal;
+  font-size: 48px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 800;
 }
+
 .count-digit::after {
-    content: "+";
+  content: "+";
 }
+
 .count-title {
-    color: #fff;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-@media screen and (max-width: 480px){
-    #counter {
-        margin-top: -90px;
-        padding: 15px;
-    }
-    .counter {
-        border-radius: 12px;
-        padding: 20px;
-    }
-    .count-digit {
-        font-size: 32px;
-    }
-    .count-digit::after {
-        content: "+";
-    }
-    .count-title {
-        font-size: 16px;
-}
+
+@media screen and (max-width: 480px) {
+  #counter {
+    margin-top: -90px;
+    padding: 15px;
+  }
+  .counter {
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .count-digit {
+    font-size: 32px;
+  }
+  .count-digit::after {
+    content: "+";
+  }
+  .count-title {
+    font-size: 16px;
+  }
 }
 /*--------------------------------------------------------------
 # LAYANAN SECTION
 --------------------------------------------------------------*/
 .layanan {
-    padding-top: 73px;
-    padding-bottom: 73px;
+  padding-top: 73px;
+  padding-bottom: 73px;
 }
 
 .btn-layanan {
-    color: #999;
-    background: transparent;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    border: none;
-    margin: 15px 0px;
-    margin-left: 5px;
-    transition: all 500ms ease;
+  color: #999;
+  background: transparent;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin: 15px 0px;
+  margin-left: 5px;
+  transition: all 500ms ease;
 }
+
 .btn-layanan:hover {
-    font-weight: bold;
-    color: #F8B606;
-    font-size: 18px;
-    transition: all 500ms ease;
+  font-weight: bold;
+  color: #F8B606;
+  font-size: 18px;
+  transition: all 500ms ease;
 }
+
 #grid-layanan {
-    border: 2px solid #474747;
-    border-radius: 8px;
-    min-height: 375px;
-    transition: all 500ms ease;
+  border: 2px solid #474747;
+  border-radius: 8px;
+  min-height: 375px;
+  transition: all 500ms ease;
 }
+
 #grid-layanan:hover {
-    border: 2px solid #F8B606;
-    border-radius: 8px;
-    min-height: 375px;
-    transition: all 500ms ease;
-    color: #fff;
+  border: 2px solid #F8B606;
+  border-radius: 8px;
+  min-height: 375px;
+  transition: all 500ms ease;
+  color: #fff;
 }
+
 #grid-layanan:hover .btn-layanan {
-    font-weight: bold;
-    color: #F8B606;
-    font-size: 18px;
-    transition: all 500ms ease;
+  font-weight: bold;
+  color: #F8B606;
+  font-size: 18px;
+  transition: all 500ms ease;
 }
+
 #grid-layanan:hover svg {
-    fill: #F8B606;
-    transition: all 500ms ease;
+  fill: #F8B606;
+  transition: all 500ms ease;
 }
 
 svg {
-    fill: #474747;
-    transition: all 500ms ease;
-}
-.background {
-    background-size: 100%;
-    transition: all 0.3s ease-in-out;
-}
-.background:hover {
-    background-size: 150%;
-    transition: all 0.3s ease-in-out;
-}
-.konsultasi {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 40px;
-    border-radius: 16px;
-    background: linear-gradient(76deg, rgba(33, 33, 33, 0.80) 22.3%, rgba(33, 33, 33, 0.40) 99.6%), linear-gradient(76deg, rgba(33, 33, 33, 0.80) 22.3%, rgba(33, 33, 33, 0.40) 99.6%);
-}
-@media screen and (max-width: 480px) {
-    .layanan {
-        padding: 25px;
-}
+  fill: #474747;
+  transition: all 500ms ease;
 }
 
+.background {
+  background-size: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.background:hover {
+  background-size: 150%;
+  transition: all 0.3s ease-in-out;
+}
+
+.konsultasi {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  border-radius: 16px;
+  background: linear-gradient(76deg, rgba(33, 33, 33, 0.8) 22.3%, rgba(33, 33, 33, 0.4) 99.6%), linear-gradient(76deg, rgba(33, 33, 33, 0.8) 22.3%, rgba(33, 33, 33, 0.4) 99.6%);
+}
+
+@media screen and (max-width: 480px) {
+  .layanan {
+    padding: 25px;
+  }
+}
 /*--------------------------------------------------------------
 # PORTOFOLIO SECTION
 --------------------------------------------------------------*/
 #portofolio {
-    padding-top: 73px;
+  padding-top: 73px;
 }
+
 /*--------------------------------------------------------------
 # KENAPA HARUS KAMI SECTION
 --------------------------------------------------------------*/
 .why-us {
-    padding-top: 100px  ;
-    padding-bottom: 70px;
+  padding-top: 100px;
+  padding-bottom: 70px;
 }
+
 /*--------------------------------------------------------------
 # ALUR KERJA SAMA SECTION
 --------------------------------------------------------------*/
 .alur-kerja {
-    overflow: hidden;
+  overflow: hidden;
 }
+
 .alur-kerja h2 {
-    color: #FFF; 
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #FFF;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.alur-deskripsi{
-    color: #999;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    margin-right: 270px;
-    margin-left: 270px;
+
+.alur-deskripsi {
+  color: #999;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 270px;
+  margin-left: 270px;
 }
+
 .alur {
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    margin-right: 15px;
-    color: #101010;
-    background-color: #F8B606;
-    border-radius: 50px;
-    padding: 10px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  margin-right: 15px;
+  color: #101010;
+  background-color: #F8B606;
+  border-radius: 50px;
+  padding: 10px;
 }
-@media screen and (max-width: 480px){
-    .alur-kerja {
-        overflow: hidden;
-    }
-    .alur {
-        font-size: 18px;
-    }
-    .alur-deskripsi {
-        margin:0px
-    }
+
+@media screen and (max-width: 480px) {
+  .alur-kerja {
+    overflow: hidden;
+  }
+  .alur {
+    font-size: 18px;
+  }
+  .alur-deskripsi {
+    margin: 0px;
+  }
 }
 /*--------------------------------------------------------------
 # TESTIMONIAL SECTION
---------------------------------------------------------------*/ 
+--------------------------------------------------------------*/
 #pembayaran {
-    overflow:hidden ;
+  overflow: hidden;
 }
-.testimonial   {
-    padding: 73px 200px;
-    overflow: hidden;
+
+.testimonial {
+  padding: 73px 200px;
+  overflow: hidden;
 }
+
 .testi {
-    background-color: #101010;
-    border-radius: 16px;
-    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.10);
-    padding: 25px;
+  background-color: #101010;
+  border-radius: 16px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 25px;
 }
+
 .testi img {
-    width: 100%;
-     
+  width: 100%;
 }
+
 .testi-body {
-    margin-right: 80px; 
+  margin-right: 80px;
 }
 
 .divider {
-    background-color: #FECC52;
-    height: 3px;
-    margin:30px 0px 10px 0px;
+  background-color: #FECC52;
+  height: 3px;
+  margin: 30px 0px 10px 0px;
 }
-.testi h5 {
-    color: #FFF;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 
+.testi h5 {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .testi h6 {
-    color:#999 ;
+  color: #999;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.review {
+  color: #FFF;
+  line-height: normal;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.rating {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  .testimonial {
+    padding: 30px 16px;
+  }
+  .testi {
+    background-color: #101010;
+    border-radius: 16px;
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+  .testi img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  .testi-body {
+    margin-right: 20px;
+  }
+  .divider {
+    background-color: #F8B606;
+    height: 3px;
+    margin: 10px 0px 10px 0px;
+  }
+  .testi h5 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .testi p {
+    color: #999;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
-.review {
-    color: #FFF;
-    line-height: normal;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 600;
-}
-.rating {
+  }
+  .rating {
     font-size: 24px;
+  }
 }
-@media screen and (max-width: 480px){
-    .testimonial {
-        padding: 30px 16px;
-    }
-    .testi {
-        background-color: #101010;
-        border-radius: 16px;
-        box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.10);
-        padding: 15px;
-    }
-    .testi img {
-        width: 100%;
-        vertical-align: middle;
-    }
-    .testi-body {
-        margin-right: 20px;
-    }
-    
-    .divider {
-        background-color: #F8B606;
-        height: 3px;
-        margin:10px 0px 10px 0px;
-    }
-    .testi h5 {
-        color: #FFF;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    
-    }
-    
-    .testi p {
-        color:#999 ;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-    .rating {
-        font-size: 24px;
-    }
-}   
 /*--------------------------------------------------------------
 # HALAMAN TIM KAMI 
 --------------------------------------------------------------*/
 .card {
-    background-color: #101010;
+  background-color: #101010;
 }
+
 .contact-section {
+  background-color: #F8B606;
+  padding: 140px 0px 210px 0px;
+  border-width: 3px solid #101010;
+  overflow: hidden;
+}
+
+.contact-box {
+  background-color: #101010;
+  border-radius: 16px;
+  height: 200px;
+  padding: 70px 32px;
+  margin: 15px;
+}
+
+#col-contact-box {
+  background-color: #101010;
+  color: #fff;
+  padding: 75px 100px;
+  border-radius: 16px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: -100px;
+}
+
+.contact-email {
+  margin-left: 28%;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-section {
     background-color: #F8B606;
-    padding: 140px 0px 210px 0px; 
+    padding: 25px 5px 100px 5px;
     border-width: 3px solid #101010;
     overflow: hidden;
-}
-.contact-box {
+  }
+  .contact-box {
     background-color: #101010;
     border-radius: 16px;
-    height: 200px;
-    padding: 70px 32px;
-    margin: 15px;
-}
-#col-contact-box {
-    background-color: #101010;
-    color: #fff;
-    padding: 75px 100px;
-    border-radius: 16px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: -100px;
-}
-.contact-email {
-    margin-left: 28%;
-}
-@media screen and (max-width: 600px) {
-    .contact-section {
-        background-color: #F8B606;
-        padding: 25px 5px 100px 5px;
-        border-width: 3px solid #101010;
-        overflow: hidden;
-        
-    }
-    .contact-box {
-        background-color: #101010;
-        border-radius: 16px;
-        height: 130px;
-        padding: 32px 20px;
-        margin: 5px;
-    }
-    #col-contact-box {
-        padding: 30px 0px;
-        margin-left: 27px;
-        margin-right: 27px;
-        margin-top: -90px;
-    }
-    #col-contact-box h3 {
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    .contact-email {
-        margin-left: 1px;
-    }
+    height: 130px;
+    padding: 32px 20px;
+    margin: 5px;
+  }
+  #col-contact-box {
+    padding: 30px 0px;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: -90px;
+  }
+  #col-contact-box h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .contact-email {
+    margin-left: 1px;
+  }
 }
 /*--------------------------------------------------------------
 # HALAMAN TENTANG KAMI 
 --------------------------------------------------------------*/
 .main {
-    padding: 100px 0px;
-    color: #fff;
+  padding: 100px 0px;
+  color: #fff;
 }
+
 .partner h3 {
-    color: #FFF;
-    line-height: normal;
-    text-align: center;
-    font-family: "Plus Jakarta Sans";
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    margin-right: 350px;
-    margin-left: 350px;
+  color: #FFF;
+  line-height: normal;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 350px;
+  margin-left: 350px;
 }
+
 #partner {
-    background-color: #101010;
+  background-color: #101010;
 }
 
 .tim {
-    padding: 100px 0px 100px 0px;
+  padding: 100px 0px 100px 0px;
 }
+
 .btn-tim {
-    border-radius: 8px;
-    border: 1px solid #F8B606;
-    text-decoration: none;
-    padding: 16px 20px;
-    font-size: 20px;
-    color: #FFF;
-    font-weight: 600;
-    transition: all 500ms ease-in-out;
+  border-radius: 8px;
+  border: 1px solid #F8B606;
+  text-decoration: none;
+  padding: 16px 20px;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 600;
+  transition: all 500ms ease-in-out;
 }
+
 .btn-tim:hover {
-    background-color: #F8B606;
-    transition: all 500ms ease-in-out;
-    color: #101010;
-
+  background-color: #F8B606;
+  transition: all 500ms ease-in-out;
+  color: #101010;
 }
+
 @media screen and (max-width: 600px) {
-    #tim-3 {
-        display: none;
-    }
-    .main {
-        padding: 50px 16px;
-    }
-    .partner h3 {
-        margin:0px;
-        font-size: 24px;
-    }
-    .btn-tim {
-        font-size: 12px;
-        padding: 4px 8px;
-        border-radius: 4px;
-     }
+  #tim-3 {
+    display: none;
+  }
+  .main {
+    padding: 50px 16px;
+  }
+  .partner h3 {
+    margin: 0px;
+    font-size: 24px;
+  }
+  .btn-tim {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
 }
-
 /*--------------------------------------------------------------
 # HALAMAN SEMUA LAYANAN 
 --------------------------------------------------------------*/
 .service {
-    padding: 100px 0px;
+  padding: 100px 0px;
 }
 
 @media screen and (max-width: 600px) {
-    .service {
-        padding: 50px 0px;
-    }
-} 
-
+  .service {
+    padding: 50px 0px;
+  }
+}
 /*--------------------------------------------------------------
 # COPYRIGHT
 --------------------------------------------------------------*/
 .copyright {
-    padding:100px 0px;
-    color: #999;
-    font-family: "Plus Jakarta Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  padding: 100px 0px;
+  color: #999;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .terms {
-    color: #999;
-    font-family: "Plus Jakarta Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #999;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
